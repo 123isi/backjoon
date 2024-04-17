@@ -1,10 +1,13 @@
 #include <stdio.h>
 int main(void){
-    int x,y;
-    int a,b;
-    scanf("%d %d",&x,&y);
-    a=x+y;
-    b=x-y;
-    printf("%d",a*b);
+    long long int x,y;
+    long long int a,b;
+    
+        scanf("%lld %lld",&x,&y);
+        a=x+y;
+        b=x-y;
+        printf("%lld",a*b);
+    
     return 0;
 }
+ 
