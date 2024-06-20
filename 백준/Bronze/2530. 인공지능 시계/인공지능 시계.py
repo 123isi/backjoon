@@ -1,0 +1,15 @@
+x,y,z=map(int,input().split())
+a=int(input())
+z=z+a
+if(z>=60):
+    while(z>=60):
+        z-=60
+        y+=1
+if(y>=60):
+    while(y>=60):
+        y-=60
+        x+=1
+if(x>=24):
+    while(x>=24):
+        x-=24
+print(x,y,z)
