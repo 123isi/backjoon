@@ -1,5 +1,5 @@
 import math
-a=int(input())
-for i in range(a):
-    x,y=map(int,input().split())
-    print(math.lcm(x,y))
+x=int(input())
+for i in range(x):
+    a,b=map(int,input().split())
+    print(math.lcm(a,b))
