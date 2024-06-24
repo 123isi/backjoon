@@ -1,3 +1,2 @@
-x=input()
-li= sorted(x.split())
+li=list(input().split())
 print(len(li))
