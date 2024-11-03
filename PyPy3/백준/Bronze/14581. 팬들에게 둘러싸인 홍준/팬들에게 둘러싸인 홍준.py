@@ -1,0 +1,5 @@
+a=input()
+print(":fan::fan::fan:")
+print(":fan::",end="")
+print(a,end="")
+print("::fan:\n:fan::fan::fan:")
