@@ -1,4 +1,4 @@
-a,b=map(int,input().split())
-x=int(input())
-y=int(input())
-print(x*y)
+a,b = map(int,input().split())
+n = int(input())
+m = int(input())
+print(n*m)
