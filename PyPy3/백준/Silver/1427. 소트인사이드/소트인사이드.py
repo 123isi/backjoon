@@ -1,8 +1,8 @@
-a=int(input())
+a=input()
 li=list(str(a))
 arr=[]
 for i in li:
     arr.append(int(i))
-arr.sort(reverse=True)
-for i in arr:
+li.sort(reverse=True)
+for i in li:
     print(i,end="")
