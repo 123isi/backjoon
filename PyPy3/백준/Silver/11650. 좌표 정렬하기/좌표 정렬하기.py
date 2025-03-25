@@ -1,8 +1,8 @@
 a=int(input())
-arr=[]
+li=[]
 for i in range(a):
     x,y=map(int,input().split())
-    arr.append([x,y])
-arr.sort(key=lambda x: (x[0],x[-1]))
-for i in arr:
+    li.append((x,y))
+li.sort(key=lambda x:(x[0],x[1]))
+for i in li:
     print(*i)
