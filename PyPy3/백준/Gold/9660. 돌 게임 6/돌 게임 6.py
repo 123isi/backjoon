@@ -1,6 +1,5 @@
-x=int(input())
-
-if (x%7)==2 or x%7==0:
-  print("CY")
-else:
-  print("SK")
+a=int(input())
+if a%7==0 or a%7==2:
+    print("CY")
+    exit()
+print("SK")
