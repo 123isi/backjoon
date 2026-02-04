@@ -1,0 +1,2 @@
+-- 코드를 입력하세요
+SELECT u.user_id,u.nickname,sum(if(b.status='DONE',b.price,0)) as 'total_sales' from used_goods_board b,used_goods_user u where b.writer_id=u.user_id group by b.writer_id having sum(if(b.status='DONE',b.price,0))>=700000 order by sum(if(b.status='DONE',b.price,0))
