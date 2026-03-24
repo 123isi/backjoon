@@ -1,0 +1,2 @@
+-- 코드를 입력하세요
+SELECT history_id,car_id,DATE_FORMAT(start_date, '%Y-%m-%d') AS start_date,DATE_FORMAT(end_date, '%Y-%m-%d') AS end_date,if(datediff(end_date,start_date)<29,"단기 대여","장기 대여") as rent_type from car_rental_company_rental_history where start_date>='2022-09-01' and start_date<'2022-10-01' order by history_id desc
